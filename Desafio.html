@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body class="ms-2 me-2">
   <header>
     <nav class="navbar navbar-expand-md bg-light">
         <div class="container-fluid">
@@ -74,6 +74,27 @@
                 </div>
             </div>
         </div>
+        <form action="Desafio.html" method="post"></form>
+    <div class="row">
+            <div class="email">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" class="form-control" placeholder="Ingrese su email" required>
+            <p>Nunca comparta su email.</p>
+            </div>
+            <div class="password mt-4">
+              <label for="pass">Contraseña</label>
+              <input type="password" name="pass" id="pass" class="form-control" placeholder="Ingrese su contraseña" required>
+            </div>  
+              <div class="form-check mt-4 ms-3">
+                  <input class="form-check-input" type="checkbox" value="" id="verificar">
+                  <label class="form-check-label" for="verificar">
+                      Verificar
+                  </label>
+              </div>    
+      </div>
+      <div class="row col-1 ms-1 mt-4 mb-3">
+        <input type="submit" value="Enviar" class="btn btn-primary">
+      </div>
     </div>
   </main>
   <footer>
