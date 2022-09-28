@@ -70,12 +70,13 @@ body {
 .titulo {
     font-size: 10px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .oradores {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    
 }
 .orador {
     border: 1px solid lightgray;
@@ -118,7 +119,35 @@ body {
 .nombreorador {
     font-size: 1.5rem;
 }
+.tituloabajo {
+    font-size: 16px;
+    text-align: center;
+}
+.botonformulario {
+    
+    background-color: rgb(155, 196, 91);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
 .footer {
+    background-color: rgb(17, 44, 85);
+    color: white;
+    align-content: center;
+    width: 100%;
+}
+.linkfooter {
+    text-align: center;
+}
+
+@media only screen and (min-width: 650px) {
+    .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6px 0px 0px 0px;
+    }
 }
